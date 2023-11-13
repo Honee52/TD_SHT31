@@ -296,6 +296,7 @@ bool TD_SHT31::writeCommand(uint16_t command)
     if (_i2c->write(buffer, 2) != 0x02)
     {
         _error_code |= ERROR_WRITE_LEN;
+        return false;
     }
     if (_i2c->endTransmission() != 0)
     {
