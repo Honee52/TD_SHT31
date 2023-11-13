@@ -11,6 +11,7 @@
  * @todo Single shot commands with stretching and periodic commands.
  * Version history:
  * Version 1.0.0    Initial version
+ * Version 1.0.1    Minor code changes.
  * ----------------------------------------------------------------------------
 */
 
